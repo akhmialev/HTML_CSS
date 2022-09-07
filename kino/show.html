@@ -21,7 +21,7 @@
         </div>
         <div class="menubar">
             <ul class="menu">
-                <li class="selected"><a href="index.html">Home page</a></li>
+                <li><a href="index.html">Home page</a></li>
                 <li><a href="films.html">Movie</a></li>
                 <li><a href="#">Serials</a></li>
                 <li><a href="rating.html">Rating</a></li>
@@ -66,53 +66,58 @@
             </div>
         </div>
         <div class="content">
-            <h1>New movie</h1>
-            <div class="films_block">
-                <a href="#"><img src="assets/img/matrix.png"></a>
-                <a href="#"><img src="assets/img/max.png"></a>
-                <a href="show.html"><img src="assets/img/inter.png"></a>
-                <a href="#"><img src="assets/img/cloud.png"></a>
+            <h1>Interstellar</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UDVtMYqUAyw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <div class="info_film_page">
+                <span class="label">Rating: </span><span class="value">8.1 / 10</span>
+                <span class="label">Year: </span><span class="value">2014</span>
+                <span class="label">Producer: </span><span class="value">Christopher Jonathan James Nolan</span>
             </div>
-            <h1>New Serials</h1>
-            <div class="films_block">
-                <a href="#"><img src="assets/img/dead.png"></a>
-                <a href="#"><img src="assets/img/silicon.png"></a>
-                <a href="#"><img src="assets/img/breakingbad.png"></a>
-                <a href="#"><img src="assets/img/xfiles.png"></a>
+            <hr>
+            <h2>Description</h2>
+            <div class="description_film">
+                <img src="assets/img/inter.png">
+                Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории
+                человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее
+                среди звезд.
             </div>
-            <div class="posts">
-                <hr>
-                <h2><a href="#">How was interstellar filmed</a></h2>
-                <div class="posts_contents">
-                    <p>
-                        Текст рыба
-                        Задача организации, в особенности же выбранный нами инновационный путь играет важную роль в
-                        формировании позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и
-                        богатый опыт новая модель организационной деятельности представляет собой интересный эксперимент
-                        проверки дальнейших направлений развития проекта.
-                    </p>
+            <hr>
+            <h2>Reviews</h2>
+            <div class="reviews">
+                <div class="review_name">
+                    Jon
                 </div>
-                <p><a href="#">Read</a></p>
-                <hr>
-                <h2><a href="#">Actor Tom Hanks</a></h2>
-                <div class="posts_contents">
-                    <p>
-                        Не следует, однако, забывать о том, что постоянный количественный рост и сфера нашей активности
-                        позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых
-                        решений!
-                    </p>
+                <div class="review_text">
+                    Good film
                 </div>
-                <p><a href="#">Read</a></p>
+                <div class="review_name">
+                    Angela
+                </div>
+                <div class="review_text">
+                    Fantastic film, I'm recommended
+                </div>
+            </div>
+
+            <div class="send">
+                <form method="POST" action="#" id="review">
+                    <input type="text" name="review_name" placeholder="name">
+                    <textarea name="review_text"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+
             </div>
         </div>
     </div>
     <div class="footer">
         <p>
-            <a href="index.html">Home page</a> |
-            <a href="films.html">Movie</a> |
+            <a href="#">Home page</a> |
+            <a href="#">Movie</a> |
             <a href="#">Serials</a> |
-            <a href="rating.html">Rating</a> |
-            <a href="contact.html">Contact</a>
+            <a href="#">Rating</a> |
+            <a href="#">Contact</a>
         </p>
         <p>First work for HTML and CSS 2022</p>
     </div>
